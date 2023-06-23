@@ -10,7 +10,7 @@ Step-0:** install label-studio-ml-backend using pip and if necessary then instal
 
 **Step-1:** Copy yolov5 directory to your label-studio project
 
-**Step-2:** Change yolov5/yolov5_model.py settings if you want to use custom settings. Change following setttings to work with custom model.
+**Step-2:** Change yolov5/model.py settings if you want to use custom settings. Change following setttings to work with custom model.
 ```
 # COCO pretrained model
 model = torch.hub.load('ultralytics/yolov5', 'yolov5s')
@@ -23,7 +23,7 @@ Do not forget to modify labelmap in model script. Change it to your model labelm
 
 **Step-3:** Initialize model inference server
 ```
-label-studio-ml init yolov5_ml --script yolov5/yolov5_model.py
+label-studio-ml init yolov5_ml --script yolov5/model.py
 ```
 
 **Step-4:**  Start model inference server
