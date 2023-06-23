@@ -2,8 +2,8 @@
 YoloV5 ML backend for label-studio for semi-automatic labeling
 
 ## How to use it?
-**
-Step-0:** install label-studio-ml-backend using pip and if necessary then install label-studio dependencies.
+
+**Step-0:** install label-studio-ml-backend using pip and if necessary then install label-studio dependencies.
 ```
  pip install git+https://github.com/heartexlabs/label-studio-ml-backend.git
 ```
